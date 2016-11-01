@@ -249,7 +249,7 @@ footer {
 }
 
 .indented {
-  text-indent: 5em;
+  text-indent: 10px;
 }
 
 @media print, screen and (max-width: 960px) {
