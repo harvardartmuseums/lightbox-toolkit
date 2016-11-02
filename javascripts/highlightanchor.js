@@ -2,7 +2,7 @@ window.onload = function() {
   changeBackgrounds();
 }
 
-window.location.onchange = function() {
+window.onhashchange = function() {
   changeBackgrounds();
 }
 
