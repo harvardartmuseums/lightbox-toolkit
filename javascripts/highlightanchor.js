@@ -2,6 +2,10 @@ window.onload = function() {
   changeBackgrounds();
 }
 
+window.location.onchange = function() {
+  changeBackgrounds();
+}
+
 function changeBackgrounds() {
   var url = window.location.href;
   var anchor = url.split("#").pop();
