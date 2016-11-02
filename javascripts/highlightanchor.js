@@ -1,4 +1,8 @@
 window.onload = function() {
+  changeBackgrounds();
+}
+
+function changeBackgrounds() {
   var url = window.location.href;
   var anchor = url.split("#").pop();
   
