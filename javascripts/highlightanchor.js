@@ -2,6 +2,8 @@ window.onload = function() {
   var url = window.location.href;
   var anchor = url.split("#").pop();
   
+  alert("anchor");
+  
   var anchoredElements = document.getElementsByClassName("anchors");
   
   for (var i = 0; i < anchoredElements.length; i++) {
