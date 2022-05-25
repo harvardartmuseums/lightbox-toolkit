@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link rel="stylesheet" href="//cdn.pannellum.org/2.3/pannellum.css"/>
+    <script src="//cdn.pannellum.org/2.3/pannellum.js"></script>
     <script src="javascripts/highlightanchor.js"></script>
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
@@ -38,8 +40,20 @@
         
         <h3>About the room and technology</h3>
        
-        <blockquote data-width="640" data-height="480" class="ricoh-theta-spherical-image" >Post from RICOH THETA. - <a href="https://theta360.com/s/ecbK3joKOZaOkSSr6YuPgDyb2" target="_blank">Spherical Image - RICOH THETA</a></blockquote>
-        <script async src="https://theta360.com/widgets.js" charset="utf-8"></script><br />
+        <figure style="margin:0px;">
+          <div id="panorama"></div>
+          <figurecaption>The Lightbox in an idle state</figurecaption>
+        </figure>
+        <script>
+          pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": "/photos/Lightbox-360-pano.jpg",
+            "autoLoad": true,
+            "autoRotate": -2,
+            "hfov": 120
+         });
+        </script>
+        <br />
         
         <p>There is a wall of nine screens on the east side of the Lightbox Gallery.</p>
         <ul>

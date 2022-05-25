@@ -322,3 +322,8 @@ footer {
     color:#444;
   }
 }
+
+#panorama {
+  width: 640px;
+  height: 480px;
+ }
